@@ -122,6 +122,7 @@ class Program
         Console.Write("Enter the name of the character to level up: ");
         string nameToLevelUp = Console.ReadLine();
 
+        // Change for Git
         // Loop through characters to find the one to level up
         for (int i = 1; i < lines.Length; i++)
         {
